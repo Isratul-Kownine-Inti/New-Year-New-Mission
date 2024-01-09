@@ -5,7 +5,12 @@
     box-sizing:border-box;
 
 }
+ body
+ {
+    overflow-x: hidden;
+   
 
+ }
 /* header section style */
 .header
 { 
@@ -249,6 +254,7 @@ padding-bottom:100px;
     font-weight: 500;
     line-height: normal;
     padding-bottom:16px;
+    text-transform: uppercase;
 } 
 
 .portfolio-title
@@ -392,4 +398,81 @@ font-weight: 600;
 line-height: normal;
 text-transform: capitalize;
 
+} 
+
+/* Footer Style */
+
+footer{
+    width: 1600px;
+    height:750px;
+    background: #070211;
+    margin-top:120px;
+      
+
+
+
+} 
+
+.hotel-address-details
+{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+padding:120px;
+} 
+
+.hotel-contact
+{
+    height:40px;
+}
+.hotel-contact i
+{
+    width: 24px;
+    height: 24px;
+    margin-right:10px;
+    margin-top:10px;
+    padding:50px;
+
+} 
+hr{
+    width: 1320px;
+    height: 1px; 
+    background: rgba(255, 255, 255, 0.15);
+    margin:0px 140px;
+    
+} 
+
+.social--icons
+{
+    margin-top:48px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 48px;
+
+} 
+.social--icons img
+{
+    padding:20px;
+} 
+
+.reserved-rights-end
+{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:90px; 
 }
