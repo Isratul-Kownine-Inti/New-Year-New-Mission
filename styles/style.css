@@ -5,12 +5,12 @@
     box-sizing:border-box;
 
 }
- body
+ /* body
  {
     overflow-x: hidden;
    
 
- }
+ } */
 /* header section style */
 .header
 { 
@@ -233,7 +233,7 @@ padding-bottom:100px;
 }   
 
 
-.best-offer-caption
+.best-offer-caption 
 {   
     
     color: #F00;
